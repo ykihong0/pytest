@@ -2,7 +2,7 @@ from calculator import Calculator
 
 def test_add(calculator: Calculator, hello_str: str):
   assert isinstance(hello_str, str)
-  assert hello_str == "hello1"
+  assert hello_str == "hello"
   assert calculator.add(1, 2) == 3
   assert calculator.add(2, 2) == 4
   
